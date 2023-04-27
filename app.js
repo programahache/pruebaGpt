@@ -4,7 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 openai.apiKey = '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';
-const twilioClient = twilio('AC2b19e0e7b7ce603a7007ae7d589e568d', '3db38a93aa3c7d0e36d0728c35f1ab73');
+const twilioClient = twilio('ACc062d20279850dfd0b5ca7eba55c011f', '9df2be583242bdd8b815b44f38c92c6c');
 
 const surveyQuestions = [/* 18 preguntas de la encuesta de MIA aquí */];
 
