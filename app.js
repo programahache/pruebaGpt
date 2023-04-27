@@ -71,7 +71,7 @@ app.post('/incoming', async (req, res) => {
     // Obtener la siguiente pregunta y enviarla al usuario
     const nextQuestion = await getNextQuestion(userState.currentQuestionIndex);
     twilioClient.messages.create({
-        from: 'whatsapp:tu-número-de-whatsapp-twilio',
+        from: '+14155238886',
         to: fromPhoneNumber,
         body: nextQuestion,
     });
